@@ -6,6 +6,8 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use('/api', numberRoutes); // API routes
+
+
+app.use('/api', numberRoutes);
 
 export default app;
